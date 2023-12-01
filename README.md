@@ -29,10 +29,17 @@ If the field is empty, it displays an alert message asking the user to enter the
         });
 
 References
+
 1.https://fonts.google.com/ 
+
 2.https://www.pinterest.com/ 
+
 3.https://www.w3schools.com/js/js_htmldom_eventlistener.asp 
+
 4.https://youtu.be/HEpqi6im8CY?si=2pv-j_VOa_chR41K 
+
 5.https://youtu.be/zHZRFwWQt2w?si=VJfjR_m1fnsY3Ia1 
+
 6.https://www.w3schools.com/css/css_form.asp 
+
 7.https://www.w3schools.com/html/html_css.asp 
