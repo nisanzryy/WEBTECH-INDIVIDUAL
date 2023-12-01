@@ -1,19 +1,19 @@
 # WEBTECH-INDIVIDUAL
 WEBTECH INDIVIDUAL ASSIGNMENT INDIVIDUAL 
 Java Script Interaction
-1. This lines selects the form element in the HTML document with the ID ‘salaryDeductionForm’
-2. 
+1. This line selects the form element in the HTML document with the ID ‘salaryDeductionForm’
+    
         const form = document.getElementById('salaryDeductionForm');
 
-2.An event listener is added to the form element for the 'submit' event. When the form is submitted which is by clicking the submit button,
+2. An event listener is added to the form element for the 'submit' event. When the form is submitted which is by clicking the submit button,
 this function is triggered. ‘event.preventDefault()’ prevents the default behavior of the form, 
-which is to submit and refresh the page. It's used here to stop the form from submitting immediately so that we can perform validation.
+which is to submit and refresh the page. It's used here to stop the form from being submitted immediately so that we can perform validation.
 
           form.addEventListener('submit', function(event) 
         {
             event.preventDefault(); 
 
-3.Inside the event listener function, this code segment checks if the 'name' field is empty when the form is submitted. 
+3. Inside the event listener function, this code segment checks if the 'name' field is empty when the form is submitted. 
 It retrieves the value of the 'name' input field and uses trim() to remove any leading whitespace. 
 If the field is empty, it displays an alert message asking the user to enter their name.
 
@@ -23,7 +23,7 @@ If the field is empty, it displays an alert message asking the user to enter the
                 return;
             }
 
-4.This line represents the placeholder for handling form submission after all validations pass. 
+4. This line represents the placeholder for handling form submission after all validations pass. 
  
             alert('Form submitted successfully!');
         });
